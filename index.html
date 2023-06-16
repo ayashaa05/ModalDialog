@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Modal Dialog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div id="flex" class="flex">
+      <button id="modal-1" class="show-modal">Show Modal 1</button>
+      <button id="modal-2" class="show-modal">Show Modal 2</button>
+      <button id="modal-3" class="show-modal">Show Modal 3</button>
+    </div>
+
+    <div class="modal hidden">
+      <div class="flex2">
+        <h1>I am a Modal</h1>
+        <button class="close">X</button>
+      </div>
+      <p>
+        In publishing and graphic design, Lorem ipsum is a placeholder text
+        commonly used to demonstrate the visual form of a document or a typeface
+        without relying on meaningful content. Lorem ipsum may be used as a
+        placeholder before final copy is available. It is also used to
+        temporarily replace text in a process called greeking, which allows
+        designers to consider the form of a webpage or publication, without the
+        meaning of the text influencing the design.
+      </p>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
